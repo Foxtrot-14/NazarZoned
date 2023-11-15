@@ -1,0 +1,57 @@
+.main {
+  height: 92vh;
+  width: 100%;
+  background-color: #1b1818;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+.title {
+  font-size: 10em;
+  color: white;
+  grid-area: 1/1;
+  margin-bottom: 3em;
+  z-index: 1;
+}
+.two {
+  font-size: 2em;
+  color: white;
+  font-style: italic;
+  margin-top: 15em;
+  grid-area: 1/1;
+  z-index: 3;
+}
+.hero {
+  height: 30rem;
+  grid-area: 1/1;
+  z-index: 2;
+}
+.sec {
+  height: 100%;
+  width: 100%;
+  border-radius: 2em;
+}
+.con {
+  margin-top: 3em;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.ima {
+  align-self: center;
+  height: 20rem;
+  border-radius: 2em;
+}
+.ima1 {
+  align-self: center;
+  height: 20rem;
+  border-radius: 2em;
+  margin-bottom: 1em;
+}
+.para {
+  align-self: center;
+  width: 20em;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
